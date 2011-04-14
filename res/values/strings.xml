@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FooBar</string>
+    <string name="app_descrip">Clubber, your best teamate once the game is over.</string>
+    <string name="app_credits">"First attempt of Android application by Olivier Mahieu and "
+        "Xavier Santolaria.\n\nWebsite: http://www.xsom.com/Clubber/"</string>
+
+    <string name="preferences_title">Settings</string>
+    <string name="pref_startup_tab_default_value">orders</string>
+    
+    <string name="tab_clubs_text">Clubs</string>
+    <string name="tab_orders_text">Bar Orders</string>
+    <string name="tab_stats_text">Statistics</string>
+    
+    <string name="button_order_text">Finalize Order</string>
+    
+    <string name="label_best_scorer">Best scorer</string>
+    <string name="label_best_assist">Best assist</string>
+    <string name="label_best_floche">Best floche</string>
+
+    <string name="value_best_scorer">Xavier Santolaria</string>
+    <string name="value_best_scorer_count">4</string>
+    
+    <string name="value_best_assist">Renaud Mansy</string>
+    <string name="value_best_assist_count">3</string>
+    
+    <string name="value_best_floche">Serge Magdalijns</string>
+    <string name="value_best_floche_count">3</string>
+    
+    <string name="separator">:</string>
+    
+</resources>

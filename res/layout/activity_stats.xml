@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:stretchColumns="0">
+      <TableRow>
+        <TextView
+            android:text="@string/label_best_scorer"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/value_best_scorer"
+            android:gravity="right"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/separator"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/value_best_scorer_count"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/label_best_assist"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/value_best_assist"
+            android:gravity="right"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/separator"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/value_best_assist_count"
+            android:padding="3dip" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:text="@string/label_best_floche"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/value_best_floche"
+            android:gravity="right"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/separator"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/value_best_floche_count"
+            android:padding="3dip" />
+    </TableRow>
+</TableLayout>

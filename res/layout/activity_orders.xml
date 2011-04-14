@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<LinearLayout
+	    android:id="@+id/bottom_control_bar"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:background="#000000">
+        <Button
+            android:id="@+id/button_order"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/button_order_text"
+            android:onClick="onOrderButtonClick"/>
+	</LinearLayout>
+
+    <ListView 
+        style="@style/MyListView"
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:divider="#000000"
+        android:dividerHeight="1px"
+        android:layout_above="@id/bottom_control_bar" />
+
+</RelativeLayout>

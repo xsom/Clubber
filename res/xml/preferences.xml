@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="General Settings">
+    
+            <ListPreference
+                android:title="Startup tab"
+                android:key="StartupTabPref"
+                android:defaultValue="@string/pref_startup_tab_default_value"
+                android:entries="@array/StartupTabArray"
+                android:entryValues="@array/StartupTabValues" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="Other Settings">
+    
+        <EditTextPreference
+            android:name="EditText Preference"
+            android:summary="This allows you to enter a string"
+            android:defaultValue="Nothing"
+            android:title="Edit This Text"
+            android:key="editTextPref" />
+            
+   </PreferenceCategory>
+
+   <PreferenceCategory
+        android:title="Errors">
+        
+        <EditTextPreference
+            android:name="Send report"
+            android:summary="This will allow to send a force-close report by e-mail"
+            android:defaultValue="Nothing"
+            android:title="Send report"
+            android:key="editTextPref" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
