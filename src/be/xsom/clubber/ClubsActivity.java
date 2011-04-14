@@ -1,4 +1,4 @@
-package com.xsa.foobar;
+package be.xsom.clubber;
 
 import android.app.ExpandableListActivity;
 import android.os.Bundle;
