@@ -1,6 +1,6 @@
 package be.xsom.clubber;
 
-import com.xsa.foobar.R;
+import be.xsom.clubber.R;
 
 import android.app.ListActivity;
 import android.content.Context;

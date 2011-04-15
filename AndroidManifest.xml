@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.xsa.foobar"
       android:versionCode="1"
-      android:versionName="1.0">
+      android:versionName="1.0" package="be.xsom.clubber">
       
     <uses-sdk android:minSdkVersion="8" />
 
@@ -11,7 +10,7 @@
         android:label="@string/app_name"
         android:theme="@style/MyTheme.Light">
         
-        <activity android:name=".FooBar"
+        <activity android:name="Clubber"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,6 +1,6 @@
 package be.xsom.clubber;
 
-import com.xsa.foobar.R;
+import be.xsom.clubber.R;
 
 import android.app.AlertDialog;
 import android.app.TabActivity;
@@ -17,7 +17,7 @@ import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 import android.widget.TextView;
 
-public class FooBar extends TabActivity {
+public class Clubber extends TabActivity {
 
 	private SharedPreferences mSharedPrefs;
 	
